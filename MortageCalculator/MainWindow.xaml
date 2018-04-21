@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,2,0">
-        <Label Content="MortageCalculator" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Height="34" Width="126"/>
+        <Label Content="Mortage Calculator" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Height="50" Width="226"/>
         <Label Content="Monthly Cost" HorizontalAlignment="Left" Margin="164,91,0,0" VerticalAlignment="Top"/>
         <Label Content="Period" HorizontalAlignment="Left" Margin="567,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.352,5.223"/>
         <Label Content="Mortage Amt" HorizontalAlignment="Left" Margin="164,168,0,0" VerticalAlignment="Top" Height="42"/>
@@ -24,10 +24,10 @@
         </Label>
         <Label Content="Monthly Payment" HorizontalAlignment="Left" Margin="164,274,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,1.845"/>
         <Button Content="Calculate" HorizontalAlignment="Left" Margin="611,292,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="103"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="373,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="102"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="567,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="119"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="360,274,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="373,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="567,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="360,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
